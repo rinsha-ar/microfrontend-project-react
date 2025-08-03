@@ -1,0 +1,26 @@
+.input-form {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+  
+    textarea {
+      height: 100px;
+      padding: 0.5rem;
+      resize: none;
+    }
+  
+    button {
+      padding: 0.5rem;
+      background-color: #2d0303;
+      color: white;
+      border: none;
+      cursor: pointer;
+      border-radius: 4px;
+      transition: background-color 0.3s ease;
+  
+      &:hover {
+        background-color: #4a0a0a; 
+      }
+    }
+  }
+  

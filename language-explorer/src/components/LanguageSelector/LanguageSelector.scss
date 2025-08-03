@@ -1,0 +1,35 @@
+.language-selector {
+    margin-bottom: 1rem;
+    display: flex;
+    align-items: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1rem;
+    color: #333;
+  
+    label {
+      margin-right: 0.5rem;
+      font-weight: 500;
+    }
+  
+    select {
+      margin-left: 0.5rem;
+      padding: 0.4rem 0.6rem;
+      border: 1px solid #ccc;
+      border-radius: 6px;
+      background-color: #fff;
+      font-size: 1rem;
+      cursor: pointer;
+      transition: border-color 0.3s ease, box-shadow 0.3s ease;
+  
+      &:hover {
+        border-color: #999;
+      }
+  
+      &:focus {
+        border-color: #2d0303;
+        box-shadow: 0 0 0 2px rgba(45, 3, 3, 0.2);
+        outline: none;
+      }
+    }
+  }
+  

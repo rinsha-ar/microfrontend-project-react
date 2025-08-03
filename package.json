@@ -1,0 +1,14 @@
+{
+  "name": "microfrontend-project",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "parcel App.jsx",
+    "build": "parcel build index.html"
+  },
+  "devDependencies": {
+    "parcel": "^2.15.4"
+  },
+  "dependencies": {
+    "sass": "^1.89.2"
+  }
+}
